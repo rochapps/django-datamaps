@@ -17,10 +17,10 @@ setup(
     version=__import__('datamaps').__version__,
     author='Victor Rocha',
     author_email='victor@rochapps.com',
-    packages=find_packages(),
+    packages=find_packages(exclude=['example']),
     include_package_data=True,
-    url='<Include Link to Project>',
-    license='<Include License Name>',
+    url='https://github.com/victor-rocha/django-datamaps',
+    license='BSD',
     description=u' '.join(__import__('datamaps').__doc__.splitlines()).strip(),
     classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
