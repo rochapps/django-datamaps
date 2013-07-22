@@ -1,2334 +1,2694 @@
 [
 {
-    "pk": "AF", 
+    "pk": 1, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.4", 
+        "code": "AF", 
         "name": "Africa", 
+        "color": "#EDDC4E", 
         "lon": 23.961648, 
         "topo": "", 
+        "scale": "0.4", 
         "lat": -1.444463, 
         "slug": "africa"
     }
 },
 {
-    "pk": "AN", 
+    "pk": 2, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.2", 
+        "code": "AN", 
         "name": "Antartica", 
+        "color": "#EDDC4E", 
         "lon": -135.0, 
         "topo": "", 
+        "scale": "0.2", 
         "lat": -82.862752, 
         "slug": "antartica"
     }
 },
 {
-    "pk": "AS", 
+    "pk": 3, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.3", 
+        "code": "AS", 
         "name": "Asia", 
+        "color": "#EDDC4E", 
         "lon": 83.583984, 
         "topo": "", 
+        "scale": "0.3", 
         "lat": 34.885931, 
         "slug": "asia"
     }
 },
 {
-    "pk": "EU", 
+    "pk": 4, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.6", 
+        "code": "EU", 
         "name": "Europe", 
+        "color": "#EDDC4E", 
         "lon": 11.576754, 
         "topo": "", 
+        "scale": "0.6", 
         "lat": 48.13672, 
         "slug": "europe"
     }
 },
 {
-    "pk": "NA", 
+    "pk": 5, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.4", 
+        "code": "NA", 
         "name": "North America", 
+        "color": "#EDDC4E", 
         "lon": -95.712891, 
         "topo": "", 
+        "scale": "0.4", 
         "lat": 37.09024, 
         "slug": "north-america"
     }
 },
 {
-    "pk": "OC", 
+    "pk": 6, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.4", 
+        "code": "OC", 
         "name": "Oceania", 
+        "color": "#EDDC4E", 
         "lon": 133.775136, 
         "topo": "", 
+        "scale": "0.4", 
         "lat": -25.274398, 
         "slug": "oceania"
     }
 },
 {
-    "pk": "SA", 
+    "pk": 7, 
     "model": "datamaps.scope", 
     "fields": {
-        "scale": "0.4", 
+        "code": "SA",
         "name": "South America", 
+        "color": "#EDDC4E", 
         "lon": -57.568359, 
         "topo": "", 
+        "scale": "0.4", 
         "lat": -25.32663, 
         "slug": "south-america"
     }
 },
 {
-    "pk": "AFG", 
+    "pk": 1, 
     "model": "datamaps.country", 
     "fields": {
+        "code": "AFG", 
         "name": "Afghanistan", 
+        "color": "#EDDC4E", 
         "lon": 67.709953, 
         "topo": "", 
         "radius": 10, 
         "lat": 33.93911, 
-        "scope": "AS", 
+        "scope": 3, 
         "slug": "afghanistan"
     }
 },
 {
-    "pk": "AGO", 
+    "pk": 2, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Angola", 
-        "lon": 17.873887, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -11.202692, 
-        "scope": "AF", 
-        "slug": "angola"
-    }
-},
-{
-    "pk": "ALB", 
-    "model": "datamaps.country", 
-    "fields": {
+        "code": "ALB", 
         "name": "Albania", 
+        "color": "#EDDC4E", 
         "lon": 20.168331, 
         "topo": "", 
         "radius": 10, 
         "lat": 41.153332, 
-        "scope": "EU", 
+        "scope": 4, 
         "slug": "albania"
     }
 },
 {
-    "pk": "ARE", 
+    "pk": 3, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "United Arab Emirates", 
-        "lon": 53.847818, 
-        "topo": "", 
-        "radius": 30, 
-        "lat": 23.424076, 
-        "scope": "AS", 
-        "slug": "united-arab-emirates"
-    }
-},
-{
-    "pk": "ARG", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Argentina", 
-        "lon": -63.616672, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -38.416097, 
-        "scope": "SA", 
-        "slug": "argentina"
-    }
-},
-{
-    "pk": "ARM", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Armenia", 
-        "lon": 45.038189, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 40.069099, 
-        "scope": "EU", 
-        "slug": "armenia"
-    }
-},
-{
-    "pk": "ATA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Antarctica", 
-        "lon": -135.0, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -82.8627519, 
-        "scope": "AN", 
-        "slug": "antarctica"
-    }
-},
-{
-    "pk": "ATF", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "French Southern and Antarctic Lands", 
-        "lon": 69.348557, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -49.280366, 
-        "scope": "AN", 
-        "slug": "french-southern-and-antarctic-lands"
-    }
-},
-{
-    "pk": "AUS", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Australia", 
-        "lon": 133.775136, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -25.274398, 
-        "scope": "OC", 
-        "slug": "australia"
-    }
-},
-{
-    "pk": "AUT", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Austria", 
-        "lon": 14.550072, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 47.516231, 
-        "scope": "EU", 
-        "slug": "austria"
-    }
-},
-{
-    "pk": "AZE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Azerbaijan", 
-        "lon": 47.576927, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 40.143105, 
-        "scope": "AS", 
-        "slug": "azerbaijan"
-    }
-},
-{
-    "pk": "BDI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Burundi", 
-        "lon": 29.918886, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -3.373056, 
-        "scope": "AF", 
-        "slug": "burundi"
-    }
-},
-{
-    "pk": "BEL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Belgium", 
-        "lon": 4.469936, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 50.503887, 
-        "scope": "EU", 
-        "slug": "belgium"
-    }
-},
-{
-    "pk": "BEN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Benin", 
-        "lon": 2.315834, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 9.30769, 
-        "scope": "AF", 
-        "slug": "benin"
-    }
-},
-{
-    "pk": "BFA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Burkina Faso", 
-        "lon": -1.561593, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 12.238333, 
-        "scope": "AF", 
-        "slug": "burkina-faso"
-    }
-},
-{
-    "pk": "BGD", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Bangladesh", 
-        "lon": 90.356331, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 23.684994, 
-        "scope": "AS", 
-        "slug": "bangladesh"
-    }
-},
-{
-    "pk": "BGR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Bulgaria", 
-        "lon": 25.48583, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 42.733883, 
-        "scope": "EU", 
-        "slug": "bulgaria"
-    }
-},
-{
-    "pk": "BHS", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "The Bahamas", 
-        "lon": -77.39628, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 25.03428, 
-        "scope": "NA", 
-        "slug": "the-bahamas"
-    }
-},
-{
-    "pk": "BIH", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Bosnia and Herzegovina", 
-        "lon": 17.679076, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 43.915886, 
-        "scope": "EU", 
-        "slug": "bosnia-and-herzegovina"
-    }
-},
-{
-    "pk": "BLR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Belarus", 
-        "lon": 27.953389, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 53.709807, 
-        "scope": "EU", 
-        "slug": "belarus"
-    }
-},
-{
-    "pk": "BLZ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Belize", 
-        "lon": -88.49765, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 17.189877, 
-        "scope": "NA", 
-        "slug": "belize"
-    }
-},
-{
-    "pk": "BOL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Bolivia", 
-        "lon": -63.588653, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -16.290154, 
-        "scope": "SA", 
-        "slug": "bolivia"
-    }
-},
-{
-    "pk": "BRA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Brazil", 
-        "lon": -51.92528, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -14.235004, 
-        "scope": "SA", 
-        "slug": "brazil"
-    }
-},
-{
-    "pk": "BRN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Brunei", 
-        "lon": 114.727669, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 4.535277, 
-        "scope": "AS", 
-        "slug": "brunei"
-    }
-},
-{
-    "pk": "BTN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Bhutan", 
-        "lon": 90.433601, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 27.514162, 
-        "scope": "AS", 
-        "slug": "bhutan"
-    }
-},
-{
-    "pk": "BWA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Botswana", 
-        "lon": 24.684866, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -22.328474, 
-        "scope": "AF", 
-        "slug": "botswana"
-    }
-},
-{
-    "pk": "CAF", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Central African Republic", 
-        "lon": 20.939444, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 6.611111, 
-        "scope": "AF", 
-        "slug": "central-african-republic"
-    }
-},
-{
-    "pk": "CAN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Canada", 
-        "lon": -106.346771, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 56.130366, 
-        "scope": "NA", 
-        "slug": "canada"
-    }
-},
-{
-    "pk": "CHE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Switzerland", 
-        "lon": 8.227512, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 46.818188, 
-        "scope": "EU", 
-        "slug": "switzerland"
-    }
-},
-{
-    "pk": "CHL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Chile", 
-        "lon": -71.542969, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -35.675147, 
-        "scope": "SA", 
-        "slug": "chile"
-    }
-},
-{
-    "pk": "CHN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "China", 
-        "lon": 104.195397, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 35.86166, 
-        "scope": "AS", 
-        "slug": "china"
-    }
-},
-{
-    "pk": "CIV", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Ivory Coast", 
-        "lon": -5.54708, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 7.539989, 
-        "scope": "AF", 
-        "slug": "ivory-coast"
-    }
-},
-{
-    "pk": "CMR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Cameroon", 
-        "lon": 12.354722, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 7.369722, 
-        "scope": "AF", 
-        "slug": "cameroon"
-    }
-},
-{
-    "pk": "COD", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Democratic Republic of the Congo", 
-        "lon": 21.758664, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -4.038333, 
-        "scope": "AF", 
-        "slug": "democratic-republic-of-the-congo"
-    }
-},
-{
-    "pk": "COG", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Republic of the Congo", 
-        "lon": 15.827659, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -0.228021, 
-        "scope": "AF", 
-        "slug": "republic-of-the-congo"
-    }
-},
-{
-    "pk": "COL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Colombia", 
-        "lon": -74.297333, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 4.570868, 
-        "scope": "SA", 
-        "slug": "colombia"
-    }
-},
-{
-    "pk": "CRI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Costa Rica", 
-        "lon": -83.753428, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 9.748917, 
-        "scope": "NA", 
-        "slug": "costa-rica"
-    }
-},
-{
-    "pk": "CUB", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Cuba", 
-        "lon": -77.781167, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 21.521757, 
-        "scope": "NA", 
-        "slug": "cuba"
-    }
-},
-{
-    "pk": "CYP", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Cyprus", 
-        "lon": 33.429859, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 35.126413, 
-        "scope": "EU", 
-        "slug": "cyprus"
-    }
-},
-{
-    "pk": "CZE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Czech Republic", 
-        "lon": 15.472962, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 49.817492, 
-        "scope": "EU", 
-        "slug": "czech-republic"
-    }
-},
-{
-    "pk": "DEU", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Germany", 
-        "lon": 10.451526, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 51.165691, 
-        "scope": "EU", 
-        "slug": "germany"
-    }
-},
-{
-    "pk": "DJI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Djibouti", 
-        "lon": 42.590275, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 11.825138, 
-        "scope": "AF", 
-        "slug": "djibouti"
-    }
-},
-{
-    "pk": "DNK", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Denmark", 
-        "lon": 9.501785, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 56.26392, 
-        "scope": "EU", 
-        "slug": "denmark"
-    }
-},
-{
-    "pk": "DOM", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Dominican Republic", 
-        "lon": -70.162651, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 18.735693, 
-        "scope": "NA", 
-        "slug": "dominican-republic"
-    }
-},
-{
-    "pk": "DZA", 
-    "model": "datamaps.country", 
-    "fields": {
+        "code": "DZA", 
         "name": "Algeria", 
+        "color": "#EDDC4E", 
         "lon": 1.659626, 
         "topo": "", 
         "radius": 10, 
         "lat": 28.033886, 
-        "scope": "AF", 
+        "scope": 1, 
         "slug": "algeria"
     }
 },
 {
-    "pk": "ECU", 
+    "pk": 4, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Ecuador", 
-        "lon": -78.183406, 
+        "code": "AGO", 
+        "name": "Angola", 
+        "color": "#EDDC4E", 
+        "lon": 17.873887, 
         "topo": "", 
         "radius": 10, 
-        "lat": -1.831239, 
-        "scope": "SA", 
-        "slug": "ecuador"
+        "lat": -11.202692, 
+        "scope": 1, 
+        "slug": "angola"
     }
 },
 {
-    "pk": "EGY", 
+    "pk": 5, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Egypt", 
-        "lon": 30.802498, 
+        "code": "ATA", 
+        "name": "Antarctica", 
+        "color": "#EDDC4E", 
+        "lon": -135.0, 
         "topo": "", 
         "radius": 10, 
-        "lat": 26.820553, 
-        "scope": "AF", 
-        "slug": "egypt"
+        "lat": -82.8627519, 
+        "scope": 2, 
+        "slug": "antarctica"
     }
 },
 {
-    "pk": "ERI", 
+    "pk": 6, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Eritrea", 
-        "lon": 39.782334, 
+        "code": "ARG", 
+        "name": "Argentina", 
+        "color": "#EDDC4E", 
+        "lon": -63.616672, 
         "topo": "", 
         "radius": 10, 
-        "lat": 15.179384, 
-        "scope": "AF", 
-        "slug": "eritrea"
+        "lat": -38.416097, 
+        "scope": 7, 
+        "slug": "argentina"
     }
 },
 {
-    "pk": "ESP", 
+    "pk": 7, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Spain", 
-        "lon": -3.74922, 
+        "code": "ARM", 
+        "name": "Armenia", 
+        "color": "#EDDC4E", 
+        "lon": 45.038189, 
         "topo": "", 
         "radius": 10, 
-        "lat": 40.463667, 
-        "scope": "EU", 
-        "slug": "spain"
+        "lat": 40.069099, 
+        "scope": 4, 
+        "slug": "armenia"
     }
 },
 {
-    "pk": "EST", 
+    "pk": 8, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Estonia", 
-        "lon": 25.013607, 
+        "code": "AUS", 
+        "name": "Australia", 
+        "color": "#EDDC4E", 
+        "lon": 133.775136, 
         "topo": "", 
         "radius": 10, 
-        "lat": 58.595272, 
-        "scope": "EU", 
-        "slug": "estonia"
+        "lat": -25.274398, 
+        "scope": 6, 
+        "slug": "australia"
     }
 },
 {
-    "pk": "ETH", 
+    "pk": 9, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Ethiopia", 
-        "lon": 40.489673, 
+        "code": "AUT", 
+        "name": "Austria", 
+        "color": "#EDDC4E", 
+        "lon": 14.550072, 
         "topo": "", 
         "radius": 10, 
-        "lat": 9.145, 
-        "scope": "AF", 
-        "slug": "ethiopia"
+        "lat": 47.516231, 
+        "scope": 4, 
+        "slug": "austria"
     }
 },
 {
-    "pk": "FIN", 
+    "pk": 10, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Finland", 
-        "lon": 25.748151, 
+        "code": "AZE", 
+        "name": "Azerbaijan", 
+        "color": "#EDDC4E", 
+        "lon": 47.576927, 
         "topo": "", 
         "radius": 10, 
-        "lat": 61.92411, 
-        "scope": "EU", 
-        "slug": "finland"
+        "lat": 40.143105, 
+        "scope": 3, 
+        "slug": "azerbaijan"
     }
 },
 {
-    "pk": "FJI", 
+    "pk": 11, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Fiji", 
-        "lon": 178.065032, 
+        "code": "BGD", 
+        "name": "Bangladesh", 
+        "color": "#EDDC4E", 
+        "lon": 90.356331, 
         "topo": "", 
         "radius": 10, 
-        "lat": -17.713371, 
-        "scope": "OC", 
-        "slug": "fiji"
+        "lat": 23.684994, 
+        "scope": 3, 
+        "slug": "bangladesh"
     }
 },
 {
-    "pk": "FLK", 
+    "pk": 12, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Falkland Islands", 
-        "lon": -59.523613, 
+        "code": "BLR", 
+        "name": "Belarus", 
+        "color": "#EDDC4E", 
+        "lon": 27.953389, 
         "topo": "", 
         "radius": 10, 
-        "lat": -51.796253, 
-        "scope": "SA", 
-        "slug": "falkland-islands"
+        "lat": 53.709807, 
+        "scope": 4, 
+        "slug": "belarus"
     }
 },
 {
-    "pk": "FRA", 
+    "pk": 13, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "France", 
-        "lon": 2.213749, 
+        "code": "BEL", 
+        "name": "Belgium", 
+        "color": "#EDDC4E", 
+        "lon": 4.469936, 
         "topo": "", 
         "radius": 10, 
-        "lat": 46.227638, 
-        "scope": "EU", 
-        "slug": "france"
+        "lat": 50.503887, 
+        "scope": 4, 
+        "slug": "belgium"
     }
 },
 {
-    "pk": "GAB", 
+    "pk": 14, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Gabon", 
-        "lon": 11.609444, 
+        "code": "BLZ", 
+        "name": "Belize", 
+        "color": "#EDDC4E", 
+        "lon": -88.49765, 
         "topo": "", 
         "radius": 10, 
-        "lat": -0.803689, 
-        "scope": "AF", 
-        "slug": "gabon"
+        "lat": 17.189877, 
+        "scope": 5, 
+        "slug": "belize"
     }
 },
 {
-    "pk": "GBR", 
+    "pk": 15, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "United Kingdom", 
-        "lon": -3.435973, 
+        "code": "BEN", 
+        "name": "Benin", 
+        "color": "#EDDC4E", 
+        "lon": 2.315834, 
         "topo": "", 
         "radius": 10, 
-        "lat": 55.378051, 
-        "scope": "EU", 
-        "slug": "united-kingdom"
+        "lat": 9.30769, 
+        "scope": 1, 
+        "slug": "benin"
     }
 },
 {
-    "pk": "GEO", 
+    "pk": 16, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Georgia", 
-        "lon": 44.792998, 
+        "code": "BTN", 
+        "name": "Bhutan", 
+        "color": "#EDDC4E", 
+        "lon": 90.433601, 
         "topo": "", 
         "radius": 10, 
-        "lat": 41.709981, 
-        "scope": "EU", 
-        "slug": "georgia"
+        "lat": 27.514162, 
+        "scope": 3, 
+        "slug": "bhutan"
     }
 },
 {
-    "pk": "GHA", 
+    "pk": 17, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Ghana", 
-        "lon": -1.023194, 
+        "code": "BOL", 
+        "name": "Bolivia", 
+        "color": "#EDDC4E", 
+        "lon": -63.588653, 
         "topo": "", 
         "radius": 10, 
-        "lat": 7.946527, 
-        "scope": "AF", 
-        "slug": "ghana"
+        "lat": -16.290154, 
+        "scope": 7, 
+        "slug": "bolivia"
     }
 },
 {
-    "pk": "GIN", 
+    "pk": 18, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Guinea", 
-        "lon": -9.696645, 
+        "code": "BIH", 
+        "name": "Bosnia and Herzegovina", 
+        "color": "#EDDC4E", 
+        "lon": 17.679076, 
         "topo": "", 
         "radius": 10, 
-        "lat": 9.945587, 
-        "scope": "AF", 
-        "slug": "guinea"
+        "lat": 43.915886, 
+        "scope": 4, 
+        "slug": "bosnia-and-herzegovina"
     }
 },
 {
-    "pk": "GMB", 
+    "pk": 19, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Gambia", 
-        "lon": -15.310139, 
+        "code": "BWA", 
+        "name": "Botswana", 
+        "color": "#EDDC4E", 
+        "lon": 24.684866, 
         "topo": "", 
         "radius": 10, 
-        "lat": 13.443182, 
-        "scope": "AF", 
-        "slug": "gambia"
+        "lat": -22.328474, 
+        "scope": 1, 
+        "slug": "botswana"
     }
 },
 {
-    "pk": "GNB", 
+    "pk": 20, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Guinea Bissau", 
-        "lon": -15.180413, 
+        "code": "BRA", 
+        "name": "Brazil", 
+        "color": "#EDDC4E", 
+        "lon": -51.92528, 
         "topo": "", 
         "radius": 10, 
-        "lat": 11.803749, 
-        "scope": "AF", 
-        "slug": "guinea-bissau"
+        "lat": -14.235004, 
+        "scope": 7, 
+        "slug": "brazil"
     }
 },
 {
-    "pk": "GNQ", 
+    "pk": 21, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Equatorial Guinea", 
-        "lon": 10.267895, 
+        "code": "BRN", 
+        "name": "Brunei", 
+        "color": "#EDDC4E", 
+        "lon": 114.727669, 
         "topo": "", 
         "radius": 10, 
-        "lat": 1.650801, 
-        "scope": "AF", 
-        "slug": "equatorial-guinea"
+        "lat": 4.535277, 
+        "scope": 3, 
+        "slug": "brunei"
     }
 },
 {
-    "pk": "GRC", 
+    "pk": 22, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Greece", 
-        "lon": 21.824312, 
+        "code": "BGR", 
+        "name": "Bulgaria", 
+        "color": "#EDDC4E", 
+        "lon": 25.48583, 
         "topo": "", 
         "radius": 10, 
-        "lat": 39.074208, 
-        "scope": "EU", 
-        "slug": "greece"
+        "lat": 42.733883, 
+        "scope": 4, 
+        "slug": "bulgaria"
     }
 },
 {
-    "pk": "GRL", 
+    "pk": 23, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Greenland", 
-        "lon": -42.604303, 
+        "code": "BFA", 
+        "name": "Burkina Faso", 
+        "color": "#EDDC4E", 
+        "lon": -1.561593, 
         "topo": "", 
         "radius": 10, 
-        "lat": 71.706936, 
-        "scope": "NA", 
-        "slug": "greenland"
+        "lat": 12.238333, 
+        "scope": 1, 
+        "slug": "burkina-faso"
     }
 },
 {
-    "pk": "GTM", 
+    "pk": 24, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Guatemala", 
-        "lon": -90.230759, 
+        "code": "BDI", 
+        "name": "Burundi", 
+        "color": "#EDDC4E", 
+        "lon": 29.918886, 
         "topo": "", 
         "radius": 10, 
-        "lat": 15.783471, 
-        "scope": "NA", 
-        "slug": "guatemala"
+        "lat": -3.373056, 
+        "scope": 1, 
+        "slug": "burundi"
     }
 },
 {
-    "pk": "GUY", 
+    "pk": 25, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Guyana", 
-        "lon": -58.93018, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 4.860416, 
-        "scope": "SA", 
-        "slug": "guyana"
-    }
-},
-{
-    "pk": "HND", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Honduras", 
-        "lon": -86.241905, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 15.199999, 
-        "scope": "NA", 
-        "slug": "honduras"
-    }
-},
-{
-    "pk": "HRV", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Croatia", 
-        "lon": 15.2, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 45.1, 
-        "scope": "EU", 
-        "slug": "croatia"
-    }
-},
-{
-    "pk": "HTI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Haiti", 
-        "lon": -72.285215, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 18.971187, 
-        "scope": "NA", 
-        "slug": "haiti"
-    }
-},
-{
-    "pk": "HUN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Hungary", 
-        "lon": 19.503304, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 47.162494, 
-        "scope": "EU", 
-        "slug": "hungary"
-    }
-},
-{
-    "pk": "IDN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Indonesia", 
-        "lon": 106.8859437, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -6.3550566, 
-        "scope": "AS", 
-        "slug": "indonesia"
-    }
-},
-{
-    "pk": "IND", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "India", 
-        "lon": 78.96288, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 20.593684, 
-        "scope": "AS", 
-        "slug": "india"
-    }
-},
-{
-    "pk": "IRL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Ireland", 
-        "lon": -8.24389, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 53.41291, 
-        "scope": "EU", 
-        "slug": "ireland"
-    }
-},
-{
-    "pk": "IRN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Iran", 
-        "lon": 53.688046, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 32.427908, 
-        "scope": "AS", 
-        "slug": "iran"
-    }
-},
-{
-    "pk": "IRQ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Iraq", 
-        "lon": 43.679291, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 33.223191, 
-        "scope": "AS", 
-        "slug": "iraq"
-    }
-},
-{
-    "pk": "ISL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Iceland", 
-        "lon": -19.020835, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 64.963051, 
-        "scope": "EU", 
-        "slug": "iceland"
-    }
-},
-{
-    "pk": "ISR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Israel", 
-        "lon": 34.851612, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 31.046051, 
-        "scope": "AS", 
-        "slug": "israel"
-    }
-},
-{
-    "pk": "ITA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Italy", 
-        "lon": 12.56738, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 41.87194, 
-        "scope": "EU", 
-        "slug": "italy"
-    }
-},
-{
-    "pk": "JAM", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Jamaica", 
-        "lon": -77.297508, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 18.109581, 
-        "scope": "NA", 
-        "slug": "jamaica"
-    }
-},
-{
-    "pk": "JOR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Jordan", 
-        "lon": 36.238414, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 30.585164, 
-        "scope": "AS", 
-        "slug": "jordan"
-    }
-},
-{
-    "pk": "JPN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Japan", 
-        "lon": 138.252924, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 36.204824, 
-        "scope": "AS", 
-        "slug": "japan"
-    }
-},
-{
-    "pk": "KAZ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Kazakhstan", 
-        "lon": 66.923684, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 48.019573, 
-        "scope": "AS", 
-        "slug": "kazakhstan"
-    }
-},
-{
-    "pk": "KEN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Kenya", 
-        "lon": 37.906193, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -0.023559, 
-        "scope": "AF", 
-        "slug": "kenya"
-    }
-},
-{
-    "pk": "KGZ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Kyrgyzstan", 
-        "lon": 74.766098, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 41.20438, 
-        "scope": "AS", 
-        "slug": "kyrgyzstan"
-    }
-},
-{
-    "pk": "KHM", 
-    "model": "datamaps.country", 
-    "fields": {
+        "code": "KHM", 
         "name": "Cambodia", 
+        "color": "#EDDC4E", 
         "lon": 104.990963, 
         "topo": "", 
         "radius": 10, 
         "lat": 12.565679, 
-        "scope": "AS", 
+        "scope": 3, 
         "slug": "cambodia"
     }
 },
 {
-    "pk": "KOR", 
+    "pk": 26, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "South Korea", 
-        "lon": 127.766922, 
+        "code": "CMR", 
+        "name": "Cameroon", 
+        "color": "#EDDC4E", 
+        "lon": 12.354722, 
         "topo": "", 
         "radius": 10, 
-        "lat": 35.907757, 
-        "scope": "AS", 
-        "slug": "south-korea"
+        "lat": 7.369722, 
+        "scope": 1, 
+        "slug": "cameroon"
     }
 },
 {
-    "pk": "KWT", 
+    "pk": 27, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Kuwait", 
-        "lon": 47.481766, 
+        "code": "CAN", 
+        "name": "Canada", 
+        "color": "#EDDC4E", 
+        "lon": -106.346771, 
         "topo": "", 
         "radius": 10, 
-        "lat": 29.31166, 
-        "scope": "AS", 
-        "slug": "kuwait"
+        "lat": 56.130366, 
+        "scope": 5, 
+        "slug": "canada"
     }
 },
 {
-    "pk": "LAO", 
+    "pk": 28, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Laos", 
-        "lon": 102.495496, 
+        "code": "CAF", 
+        "name": "Central African Republic", 
+        "color": "#EDDC4E", 
+        "lon": 20.939444, 
         "topo": "", 
         "radius": 10, 
-        "lat": 19.85627, 
-        "scope": "AS", 
-        "slug": "laos"
+        "lat": 6.611111, 
+        "scope": 1, 
+        "slug": "central-african-republic"
     }
 },
 {
-    "pk": "LBN", 
+    "pk": 29, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Lebanon", 
-        "lon": 35.862285, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 33.854721, 
-        "scope": "AS", 
-        "slug": "lebanon"
-    }
-},
-{
-    "pk": "LBR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Liberia", 
-        "lon": -9.429499, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 6.428055, 
-        "scope": "AF", 
-        "slug": "liberia"
-    }
-},
-{
-    "pk": "LBY", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Libya", 
-        "lon": 17.228331, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 26.3351, 
-        "scope": "AF", 
-        "slug": "libya"
-    }
-},
-{
-    "pk": "LKA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Sri Lanka", 
-        "lon": 80.771797, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 7.873054, 
-        "scope": "AS", 
-        "slug": "sri-lanka"
-    }
-},
-{
-    "pk": "LSO", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Lesotho", 
-        "lon": 28.233608, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -29.609988, 
-        "scope": "AF", 
-        "slug": "lesotho"
-    }
-},
-{
-    "pk": "LTU", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Lithuania", 
-        "lon": 23.881275, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 55.169438, 
-        "scope": "EU", 
-        "slug": "lithuania"
-    }
-},
-{
-    "pk": "LUX", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Luxembourg", 
-        "lon": 6.129583, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 49.815273, 
-        "scope": "EU", 
-        "slug": "luxembourg"
-    }
-},
-{
-    "pk": "LVA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Latvia", 
-        "lon": 24.603189, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 56.879635, 
-        "scope": "EU", 
-        "slug": "latvia"
-    }
-},
-{
-    "pk": "MAR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Morocco", 
-        "lon": -7.09262, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 31.791702, 
-        "scope": "AF", 
-        "slug": "morocco"
-    }
-},
-{
-    "pk": "MDA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Moldova", 
-        "lon": 28.369885, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 47.411631, 
-        "scope": "EU", 
-        "slug": "moldova"
-    }
-},
-{
-    "pk": "MDG", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Madagascar", 
-        "lon": 46.869107, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -18.766947, 
-        "scope": "AF", 
-        "slug": "madagascar"
-    }
-},
-{
-    "pk": "MEX", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Mexico", 
-        "lon": -102.552784, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 23.634501, 
-        "scope": "NA", 
-        "slug": "mexico"
-    }
-},
-{
-    "pk": "MKD", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Macedonia", 
-        "lon": 21.745275, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 41.608635, 
-        "scope": "EU", 
-        "slug": "macedonia"
-    }
-},
-{
-    "pk": "MLI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Mali", 
-        "lon": -3.996166, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 17.570692, 
-        "scope": "AF", 
-        "slug": "mali"
-    }
-},
-{
-    "pk": "MMR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Myanmar", 
-        "lon": 95.956223, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 21.913965, 
-        "scope": "AS", 
-        "slug": "myanmar"
-    }
-},
-{
-    "pk": "MNE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Montenegro", 
-        "lon": 19.37439, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 42.708678, 
-        "scope": "EU", 
-        "slug": "montenegro"
-    }
-},
-{
-    "pk": "MNG", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Mongolia", 
-        "lon": 103.846656, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 46.862496, 
-        "scope": "AS", 
-        "slug": "mongolia"
-    }
-},
-{
-    "pk": "MOZ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Mozambique", 
-        "lon": 35.529562, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -18.665695, 
-        "scope": "AF", 
-        "slug": "mozambique"
-    }
-},
-{
-    "pk": "MRT", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Mauritania", 
-        "lon": -10.940835, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 21.00789, 
-        "scope": "AF", 
-        "slug": "mauritania"
-    }
-},
-{
-    "pk": "MWI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Malawi", 
-        "lon": 34.301525, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -13.254308, 
-        "scope": "AF", 
-        "slug": "malawi"
-    }
-},
-{
-    "pk": "MYS", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Malaysia", 
-        "lon": 101.975766, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 4.210484, 
-        "scope": "AS", 
-        "slug": "malaysia"
-    }
-},
-{
-    "pk": "NAM", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Namibia", 
-        "lon": 18.49041, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -22.95764, 
-        "scope": "AF", 
-        "slug": "namibia"
-    }
-},
-{
-    "pk": "NCL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "New Caledonia", 
-        "lon": 165.618042, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -20.904305, 
-        "scope": "OC", 
-        "slug": "new-caledonia"
-    }
-},
-{
-    "pk": "NER", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Niger", 
-        "lon": 8.081666, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 17.607789, 
-        "scope": "AF", 
-        "slug": "niger"
-    }
-},
-{
-    "pk": "NGA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Nigeria", 
-        "lon": 8.675277, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 9.081999, 
-        "scope": "AF", 
-        "slug": "nigeria"
-    }
-},
-{
-    "pk": "NIC", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Nicaragua", 
-        "lon": -85.207229, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 12.865416, 
-        "scope": "NA", 
-        "slug": "nicaragua"
-    }
-},
-{
-    "pk": "NLD", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Netherlands", 
-        "lon": 5.291266, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 52.132633, 
-        "scope": "EU", 
-        "slug": "netherlands"
-    }
-},
-{
-    "pk": "NOR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Norway", 
-        "lon": 8.468946, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 60.472024, 
-        "scope": "EU", 
-        "slug": "norway"
-    }
-},
-{
-    "pk": "NPL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Nepal", 
-        "lon": 84.124008, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 28.394857, 
-        "scope": "AS", 
-        "slug": "nepal"
-    }
-},
-{
-    "pk": "NZL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "New Zealand", 
-        "lon": 174.885971, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -40.900557, 
-        "scope": "OC", 
-        "slug": "new-zealand"
-    }
-},
-{
-    "pk": "OMN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Oman", 
-        "lon": 55.923255, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 21.512583, 
-        "scope": "AS", 
-        "slug": "oman"
-    }
-},
-{
-    "pk": "PAK", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Pakistan", 
-        "lon": 69.345116, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 30.375321, 
-        "scope": "AS", 
-        "slug": "pakistan"
-    }
-},
-{
-    "pk": "PAN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Panama", 
-        "lon": -80.782127, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 8.537981, 
-        "scope": "NA", 
-        "slug": "panama"
-    }
-},
-{
-    "pk": "PER", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Peru", 
-        "lon": -75.015152, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -9.189967, 
-        "scope": "SA", 
-        "slug": "peru"
-    }
-},
-{
-    "pk": "PHL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Philippines", 
-        "lon": 121.774017, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 12.879721, 
-        "scope": "AS", 
-        "slug": "philippines"
-    }
-},
-{
-    "pk": "PNG", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Papua New Guinea", 
-        "lon": 143.95555, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -6.314993, 
-        "scope": "OC", 
-        "slug": "papua-new-guinea"
-    }
-},
-{
-    "pk": "POL", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Poland", 
-        "lon": 19.145136, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 51.919438, 
-        "scope": "EU", 
-        "slug": "poland"
-    }
-},
-{
-    "pk": "PRI", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Puerto Rico", 
-        "lon": -66.590149, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 18.220833, 
-        "scope": "NA", 
-        "slug": "puerto-rico"
-    }
-},
-{
-    "pk": "PRK", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "North Korea", 
-        "lon": 127.510093, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 40.339852, 
-        "scope": "AS", 
-        "slug": "north-korea"
-    }
-},
-{
-    "pk": "PRT", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Portugal", 
-        "lon": -8.224454, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 39.399872, 
-        "scope": "EU", 
-        "slug": "portugal"
-    }
-},
-{
-    "pk": "PRY", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Paraguay", 
-        "lon": -58.443832, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -23.442503, 
-        "scope": "SA", 
-        "slug": "paraguay"
-    }
-},
-{
-    "pk": "PSE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "West Bank", 
-        "lon": 35.3, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 31.9667, 
-        "scope": "AS", 
-        "slug": "west-bank"
-    }
-},
-{
-    "pk": "QAT", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Qatar", 
-        "lon": 51.183884, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 25.354826, 
-        "scope": "AS", 
-        "slug": "qatar"
-    }
-},
-{
-    "pk": "ROU", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Romania", 
-        "lon": 24.96676, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 45.943161, 
-        "scope": "EU", 
-        "slug": "romania"
-    }
-},
-{
-    "pk": "RUS", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Russia", 
-        "lon": 105.318756, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 61.52401, 
-        "scope": "EU", 
-        "slug": "russia"
-    }
-},
-{
-    "pk": "RWA", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Rwanda", 
-        "lon": 29.873888, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -1.940278, 
-        "scope": "AF", 
-        "slug": "rwanda"
-    }
-},
-{
-    "pk": "SAU", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Saudi Arabia", 
-        "lon": 45.079162, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 23.885942, 
-        "scope": "AS", 
-        "slug": "saudi-arabia"
-    }
-},
-{
-    "pk": "SDN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Sudan", 
-        "lon": 30.217636, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 12.862807, 
-        "scope": "AF", 
-        "slug": "sudan"
-    }
-},
-{
-    "pk": "SDS", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "South Sudan", 
-        "lon": 30.1589303, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 7.9630921, 
-        "scope": "AF", 
-        "slug": "south-sudan"
-    }
-},
-{
-    "pk": "SEN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Senegal", 
-        "lon": -14.452362, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 14.497401, 
-        "scope": "AF", 
-        "slug": "senegal"
-    }
-},
-{
-    "pk": "SLB", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Solomon Islands", 
-        "lon": 160.156194, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -9.64571, 
-        "scope": "OC", 
-        "slug": "solomon-islands"
-    }
-},
-{
-    "pk": "SLE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Sierra Leone", 
-        "lon": -11.779889, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 8.460555, 
-        "scope": "AF", 
-        "slug": "sierra-leone"
-    }
-},
-{
-    "pk": "SLV", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "El Salvador", 
-        "lon": -88.89653, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 13.794185, 
-        "scope": "NA", 
-        "slug": "el-salvador"
-    }
-},
-{
-    "pk": "SOM", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Somalia", 
-        "lon": 46.199616, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 5.152149, 
-        "scope": "AF", 
-        "slug": "somalia"
-    }
-},
-{
-    "pk": "SRB", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Republic of Serbia", 
-        "lon": 21.005859, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 44.016521, 
-        "scope": "EU", 
-        "slug": "republic-of-serbia"
-    }
-},
-{
-    "pk": "SUR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Suriname", 
-        "lon": -56.027783, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 3.919305, 
-        "scope": "SA", 
-        "slug": "suriname"
-    }
-},
-{
-    "pk": "SVK", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Slovakia", 
-        "lon": 19.699024, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 48.669026, 
-        "scope": "EU", 
-        "slug": "slovakia"
-    }
-},
-{
-    "pk": "SVN", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Slovenia", 
-        "lon": 14.995463, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 46.151241, 
-        "scope": "EU", 
-        "slug": "slovenia"
-    }
-},
-{
-    "pk": "SWE", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Sweden", 
-        "lon": 18.643501, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 60.128161, 
-        "scope": "EU", 
-        "slug": "sweden"
-    }
-},
-{
-    "pk": "SWZ", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Swaziland", 
-        "lon": 31.465866, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": -26.522503, 
-        "scope": "EU", 
-        "slug": "swaziland"
-    }
-},
-{
-    "pk": "SYR", 
-    "model": "datamaps.country", 
-    "fields": {
-        "name": "Syria", 
-        "lon": 38.996815, 
-        "topo": "", 
-        "radius": 10, 
-        "lat": 34.802075, 
-        "scope": "AS", 
-        "slug": "syria"
-    }
-},
-{
-    "pk": "TCD", 
-    "model": "datamaps.country", 
-    "fields": {
+        "code": "TCD", 
         "name": "Chad", 
+        "color": "#EDDC4E", 
         "lon": 18.732207, 
         "topo": "", 
         "radius": 10, 
         "lat": 15.454166, 
-        "scope": "AF", 
+        "scope": 1, 
         "slug": "chad"
     }
 },
 {
-    "pk": "TGO", 
+    "pk": 30, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Togo", 
-        "lon": 0.824782, 
+        "code": "CHL", 
+        "name": "Chile", 
+        "color": "#EDDC4E", 
+        "lon": -71.542969, 
         "topo": "", 
         "radius": 10, 
-        "lat": 8.619543, 
-        "scope": "AF", 
-        "slug": "togo"
+        "lat": -35.675147, 
+        "scope": 7, 
+        "slug": "chile"
     }
 },
 {
-    "pk": "THA", 
+    "pk": 31, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Thailand", 
-        "lon": 100.992541, 
+        "code": "CHN", 
+        "name": "China", 
+        "color": "#EDDC4E", 
+        "lon": 104.195397, 
         "topo": "", 
         "radius": 10, 
-        "lat": 15.870032, 
-        "scope": "AS", 
-        "slug": "thailand"
+        "lat": 35.86166, 
+        "scope": 3, 
+        "slug": "china"
     }
 },
 {
-    "pk": "TJK", 
+    "pk": 32, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Tajikistan", 
-        "lon": 71.276093, 
+        "code": "COL", 
+        "name": "Colombia", 
+        "color": "#EDDC4E", 
+        "lon": -74.297333, 
         "topo": "", 
         "radius": 10, 
-        "lat": 38.861034, 
-        "scope": "AS", 
-        "slug": "tajikistan"
+        "lat": 4.570868, 
+        "scope": 7, 
+        "slug": "colombia"
     }
 },
 {
-    "pk": "TKM", 
+    "pk": 33, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Turkmenistan", 
-        "lon": 59.556278, 
+        "code": "CRI", 
+        "name": "Costa Rica", 
+        "color": "#EDDC4E", 
+        "lon": -83.753428, 
         "topo": "", 
         "radius": 10, 
-        "lat": 38.969719, 
-        "scope": "AS", 
-        "slug": "turkmenistan"
+        "lat": 9.748917, 
+        "scope": 5, 
+        "slug": "costa-rica"
     }
 },
 {
-    "pk": "TLS", 
+    "pk": 34, 
     "model": "datamaps.country", 
     "fields": {
+        "code": "HRV", 
+        "name": "Croatia", 
+        "color": "#EDDC4E", 
+        "lon": 15.2, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 45.1, 
+        "scope": 4, 
+        "slug": "croatia"
+    }
+},
+{
+    "pk": 35, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "CUB", 
+        "name": "Cuba", 
+        "color": "#EDDC4E", 
+        "lon": -77.781167, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 21.521757, 
+        "scope": 5, 
+        "slug": "cuba"
+    }
+},
+{
+    "pk": 36, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "CYP", 
+        "name": "Cyprus", 
+        "color": "#EDDC4E", 
+        "lon": 33.429859, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 35.126413, 
+        "scope": 4, 
+        "slug": "cyprus"
+    }
+},
+{
+    "pk": 37, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "CZE", 
+        "name": "Czech Republic", 
+        "color": "#EDDC4E", 
+        "lon": 15.472962, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 49.817492, 
+        "scope": 4, 
+        "slug": "czech-republic"
+    }
+},
+{
+    "pk": 38, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "COD", 
+        "name": "Democratic Republic of the Congo", 
+        "color": "#EDDC4E", 
+        "lon": 21.758664, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -4.038333, 
+        "scope": 1, 
+        "slug": "democratic-republic-of-the-congo"
+    }
+},
+{
+    "pk": 39, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "DNK", 
+        "name": "Denmark", 
+        "color": "#EDDC4E", 
+        "lon": 9.501785, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 56.26392, 
+        "scope": 4, 
+        "slug": "denmark"
+    }
+},
+{
+    "pk": 40, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "DJI", 
+        "name": "Djibouti", 
+        "color": "#EDDC4E", 
+        "lon": 42.590275, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 11.825138, 
+        "scope": 1, 
+        "slug": "djibouti"
+    }
+},
+{
+    "pk": 41, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "DOM", 
+        "name": "Dominican Republic", 
+        "color": "#EDDC4E", 
+        "lon": -70.162651, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 18.735693, 
+        "scope": 5, 
+        "slug": "dominican-republic"
+    }
+},
+{
+    "pk": 42, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TLS", 
         "name": "East Timor", 
+        "color": "#EDDC4E", 
         "lon": 125.727539, 
         "topo": "", 
         "radius": 10, 
         "lat": -8.874217, 
-        "scope": "AS", 
+        "scope": 3, 
         "slug": "east-timor"
     }
 },
 {
-    "pk": "TTO", 
+    "pk": 43, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Trinidad and Tobago", 
-        "lon": -61.222503, 
+        "code": "ECU", 
+        "name": "Ecuador", 
+        "color": "#EDDC4E", 
+        "lon": -78.183406, 
         "topo": "", 
         "radius": 10, 
-        "lat": 10.691803, 
-        "scope": "NA", 
-        "slug": "trinidad-and-tobago"
+        "lat": -1.831239, 
+        "scope": 7, 
+        "slug": "ecuador"
     }
 },
 {
-    "pk": "TUN", 
+    "pk": 44, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Tunisia", 
-        "lon": 9.537499, 
+        "code": "EGY", 
+        "name": "Egypt", 
+        "color": "#EDDC4E", 
+        "lon": 30.802498, 
         "topo": "", 
         "radius": 10, 
-        "lat": 33.886917, 
-        "scope": "AF", 
-        "slug": "tunisia"
+        "lat": 26.820553, 
+        "scope": 1, 
+        "slug": "egypt"
     }
 },
 {
-    "pk": "TUR", 
+    "pk": 45, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Turkey", 
-        "lon": 35.243322, 
+        "code": "SLV", 
+        "name": "El Salvador", 
+        "color": "#EDDC4E", 
+        "lon": -88.89653, 
         "topo": "", 
         "radius": 10, 
-        "lat": 38.963745, 
-        "scope": "AS", 
-        "slug": "turkey"
+        "lat": 13.794185, 
+        "scope": 5, 
+        "slug": "el-salvador"
     }
 },
 {
-    "pk": "TWN", 
+    "pk": 46, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Taiwan", 
-        "lon": 120.960515, 
+        "code": "GNQ", 
+        "name": "Equatorial Guinea", 
+        "color": "#EDDC4E", 
+        "lon": 10.267895, 
         "topo": "", 
         "radius": 10, 
-        "lat": 23.69781, 
-        "scope": "AS", 
-        "slug": "taiwan"
+        "lat": 1.650801, 
+        "scope": 1, 
+        "slug": "equatorial-guinea"
     }
 },
 {
-    "pk": "TZA", 
+    "pk": 47, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "United Republic of Tanzania", 
-        "lon": 34.888822, 
+        "code": "ERI", 
+        "name": "Eritrea", 
+        "color": "#EDDC4E", 
+        "lon": 39.782334, 
         "topo": "", 
         "radius": 10, 
-        "lat": -6.369028, 
-        "scope": "AF", 
-        "slug": "united-republic-of-tanzania"
+        "lat": 15.179384, 
+        "scope": 1, 
+        "slug": "eritrea"
     }
 },
 {
-    "pk": "UGA", 
+    "pk": 48, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Uganda", 
-        "lon": 32.290275, 
+        "code": "EST", 
+        "name": "Estonia", 
+        "color": "#EDDC4E", 
+        "lon": 25.013607, 
         "topo": "", 
         "radius": 10, 
-        "lat": 1.373333, 
-        "scope": "AF", 
-        "slug": "uganda"
+        "lat": 58.595272, 
+        "scope": 4, 
+        "slug": "estonia"
     }
 },
 {
-    "pk": "UKR", 
+    "pk": 49, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Ukraine", 
-        "lon": 31.16558, 
+        "code": "ETH", 
+        "name": "Ethiopia", 
+        "color": "#EDDC4E", 
+        "lon": 40.489673, 
         "topo": "", 
         "radius": 10, 
-        "lat": 48.379433, 
-        "scope": "EU", 
-        "slug": "ukraine"
+        "lat": 9.145, 
+        "scope": 1, 
+        "slug": "ethiopia"
     }
 },
 {
-    "pk": "URY", 
+    "pk": 50, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Uruguay", 
-        "lon": -55.765835, 
+        "code": "FLK", 
+        "name": "Falkland Islands", 
+        "color": "#EDDC4E", 
+        "lon": -59.523613, 
         "topo": "", 
         "radius": 10, 
-        "lat": -32.522779, 
-        "scope": "SA", 
-        "slug": "uruguay"
+        "lat": -51.796253, 
+        "scope": 7, 
+        "slug": "falkland-islands"
     }
 },
 {
-    "pk": "USA", 
+    "pk": 51, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "United States of America", 
-        "lon": -95.712891, 
+        "code": "FJI", 
+        "name": "Fiji", 
+        "color": "#EDDC4E", 
+        "lon": 178.065032, 
         "topo": "", 
         "radius": 10, 
-        "lat": 37.09024, 
-        "scope": "NA", 
-        "slug": "united-states-of-america"
+        "lat": -17.713371, 
+        "scope": 6, 
+        "slug": "fiji"
     }
 },
 {
-    "pk": "UZB", 
+    "pk": 52, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Uzbekistan", 
-        "lon": 64.585262, 
+        "code": "FIN", 
+        "name": "Finland", 
+        "color": "#EDDC4E", 
+        "lon": 25.748151, 
         "topo": "", 
         "radius": 10, 
-        "lat": 41.377491, 
-        "scope": "AS", 
-        "slug": "uzbekistan"
+        "lat": 61.92411, 
+        "scope": 4, 
+        "slug": "finland"
     }
 },
 {
-    "pk": "VEN", 
+    "pk": 53, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Venezuela", 
-        "lon": -66.58973, 
+        "code": "FRA", 
+        "name": "France", 
+        "color": "#EDDC4E", 
+        "lon": 2.213749, 
         "topo": "", 
         "radius": 10, 
-        "lat": 6.42375, 
-        "scope": "SA", 
-        "slug": "venezuela"
+        "lat": 46.227638, 
+        "scope": 4, 
+        "slug": "france"
     }
 },
 {
-    "pk": "VNM", 
+    "pk": 54, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Vietnam", 
-        "lon": 108.277199, 
+        "code": "ATF", 
+        "name": "French Southern and Antarctic Lands", 
+        "color": "#EDDC4E", 
+        "lon": 69.348557, 
         "topo": "", 
         "radius": 10, 
-        "lat": 14.058324, 
-        "scope": "AS", 
-        "slug": "vietnam"
+        "lat": -49.280366, 
+        "scope": 2, 
+        "slug": "french-southern-and-antarctic-lands"
     }
 },
 {
-    "pk": "VUT", 
+    "pk": 55, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Vanuatu", 
-        "lon": 166.959158, 
+        "code": "GAB", 
+        "name": "Gabon", 
+        "color": "#EDDC4E", 
+        "lon": 11.609444, 
         "topo": "", 
         "radius": 10, 
-        "lat": -15.376706, 
-        "scope": "OC", 
-        "slug": "vanuatu"
+        "lat": -0.803689, 
+        "scope": 1, 
+        "slug": "gabon"
     }
 },
 {
-    "pk": "YEM", 
+    "pk": 56, 
     "model": "datamaps.country", 
     "fields": {
-        "name": "Yemen", 
-        "lon": 48.516388, 
+        "code": "GMB", 
+        "name": "Gambia", 
+        "color": "#EDDC4E", 
+        "lon": -15.310139, 
         "topo": "", 
         "radius": 10, 
-        "lat": 15.552727, 
-        "scope": "AS", 
-        "slug": "yemen"
+        "lat": 13.443182, 
+        "scope": 1, 
+        "slug": "gambia"
     }
 },
 {
-    "pk": "ZAF", 
+    "pk": 57, 
     "model": "datamaps.country", 
     "fields": {
+        "code": "GEO", 
+        "name": "Georgia", 
+        "color": "#EDDC4E", 
+        "lon": 44.792998, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 41.709981, 
+        "scope": 4, 
+        "slug": "georgia"
+    }
+},
+{
+    "pk": 58, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "DEU", 
+        "name": "Germany", 
+        "color": "#EDDC4E", 
+        "lon": 10.451526, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 51.165691, 
+        "scope": 4, 
+        "slug": "germany"
+    }
+},
+{
+    "pk": 59, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GHA", 
+        "name": "Ghana", 
+        "color": "#EDDC4E", 
+        "lon": -1.023194, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 7.946527, 
+        "scope": 1, 
+        "slug": "ghana"
+    }
+},
+{
+    "pk": 60, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GRC", 
+        "name": "Greece", 
+        "color": "#EDDC4E", 
+        "lon": 21.824312, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 39.074208, 
+        "scope": 4, 
+        "slug": "greece"
+    }
+},
+{
+    "pk": 61, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GRL", 
+        "name": "Greenland", 
+        "color": "#EDDC4E", 
+        "lon": -42.604303, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 71.706936, 
+        "scope": 5, 
+        "slug": "greenland"
+    }
+},
+{
+    "pk": 62, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GTM", 
+        "name": "Guatemala", 
+        "color": "#EDDC4E", 
+        "lon": -90.230759, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 15.783471, 
+        "scope": 5, 
+        "slug": "guatemala"
+    }
+},
+{
+    "pk": 63, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GIN", 
+        "name": "Guinea", 
+        "color": "#EDDC4E", 
+        "lon": -9.696645, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 9.945587, 
+        "scope": 1, 
+        "slug": "guinea"
+    }
+},
+{
+    "pk": 64, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GNB", 
+        "name": "Guinea Bissau", 
+        "color": "#EDDC4E", 
+        "lon": -15.180413, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 11.803749, 
+        "scope": 1, 
+        "slug": "guinea-bissau"
+    }
+},
+{
+    "pk": 65, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GUY", 
+        "name": "Guyana", 
+        "color": "#EDDC4E", 
+        "lon": -58.93018, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 4.860416, 
+        "scope": 7, 
+        "slug": "guyana"
+    }
+},
+{
+    "pk": 66, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "HTI", 
+        "name": "Haiti", 
+        "color": "#EDDC4E", 
+        "lon": -72.285215, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 18.971187, 
+        "scope": 5, 
+        "slug": "haiti"
+    }
+},
+{
+    "pk": 67, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "HND", 
+        "name": "Honduras", 
+        "color": "#EDDC4E", 
+        "lon": -86.241905, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 15.199999, 
+        "scope": 5, 
+        "slug": "honduras"
+    }
+},
+{
+    "pk": 68, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "HUN", 
+        "name": "Hungary", 
+        "color": "#EDDC4E", 
+        "lon": 19.503304, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 47.162494, 
+        "scope": 4, 
+        "slug": "hungary"
+    }
+},
+{
+    "pk": 69, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ISL", 
+        "name": "Iceland", 
+        "color": "#EDDC4E", 
+        "lon": -19.020835, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 64.963051, 
+        "scope": 4, 
+        "slug": "iceland"
+    }
+},
+{
+    "pk": 70, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "IND", 
+        "name": "India", 
+        "color": "#EDDC4E", 
+        "lon": 78.96288, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 20.593684, 
+        "scope": 3, 
+        "slug": "india"
+    }
+},
+{
+    "pk": 71, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "IDN", 
+        "name": "Indonesia", 
+        "color": "#EDDC4E", 
+        "lon": 106.8859437, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -6.3550566, 
+        "scope": 3, 
+        "slug": "indonesia"
+    }
+},
+{
+    "pk": 72, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "IRN", 
+        "name": "Iran", 
+        "color": "#EDDC4E", 
+        "lon": 53.688046, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 32.427908, 
+        "scope": 3, 
+        "slug": "iran"
+    }
+},
+{
+    "pk": 73, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "IRQ", 
+        "name": "Iraq", 
+        "color": "#EDDC4E", 
+        "lon": 43.679291, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 33.223191, 
+        "scope": 3, 
+        "slug": "iraq"
+    }
+},
+{
+    "pk": 74, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "IRL", 
+        "name": "Ireland", 
+        "color": "#EDDC4E", 
+        "lon": -8.24389, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 53.41291, 
+        "scope": 4, 
+        "slug": "ireland"
+    }
+},
+{
+    "pk": 75, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ISR", 
+        "name": "Israel", 
+        "color": "#EDDC4E", 
+        "lon": 34.851612, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 31.046051, 
+        "scope": 3, 
+        "slug": "israel"
+    }
+},
+{
+    "pk": 76, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ITA", 
+        "name": "Italy", 
+        "color": "#EDDC4E", 
+        "lon": 12.56738, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 41.87194, 
+        "scope": 4, 
+        "slug": "italy"
+    }
+},
+{
+    "pk": 77, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "CIV", 
+        "name": "Ivory Coast", 
+        "color": "#EDDC4E", 
+        "lon": -5.54708, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 7.539989, 
+        "scope": 1, 
+        "slug": "ivory-coast"
+    }
+},
+{
+    "pk": 78, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "JAM", 
+        "name": "Jamaica", 
+        "color": "#EDDC4E", 
+        "lon": -77.297508, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 18.109581, 
+        "scope": 5, 
+        "slug": "jamaica"
+    }
+},
+{
+    "pk": 79, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "JPN", 
+        "name": "Japan", 
+        "color": "#EDDC4E", 
+        "lon": 138.252924, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 36.204824, 
+        "scope": 3, 
+        "slug": "japan"
+    }
+},
+{
+    "pk": 80, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "JOR", 
+        "name": "Jordan", 
+        "color": "#EDDC4E", 
+        "lon": 36.238414, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 30.585164, 
+        "scope": 3, 
+        "slug": "jordan"
+    }
+},
+{
+    "pk": 81, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "KAZ", 
+        "name": "Kazakhstan", 
+        "color": "#EDDC4E", 
+        "lon": 66.923684, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 48.019573, 
+        "scope": 3, 
+        "slug": "kazakhstan"
+    }
+},
+{
+    "pk": 82, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "KEN", 
+        "name": "Kenya", 
+        "color": "#EDDC4E", 
+        "lon": 37.906193, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -0.023559, 
+        "scope": 1, 
+        "slug": "kenya"
+    }
+},
+{
+    "pk": 83, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "KWT", 
+        "name": "Kuwait", 
+        "color": "#EDDC4E", 
+        "lon": 47.481766, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 29.31166, 
+        "scope": 3, 
+        "slug": "kuwait"
+    }
+},
+{
+    "pk": 84, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "KGZ", 
+        "name": "Kyrgyzstan", 
+        "color": "#EDDC4E", 
+        "lon": 74.766098, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 41.20438, 
+        "scope": 3, 
+        "slug": "kyrgyzstan"
+    }
+},
+{
+    "pk": 85, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LAO", 
+        "name": "Laos", 
+        "color": "#EDDC4E", 
+        "lon": 102.495496, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 19.85627, 
+        "scope": 3, 
+        "slug": "laos"
+    }
+},
+{
+    "pk": 86, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LVA", 
+        "name": "Latvia", 
+        "color": "#EDDC4E", 
+        "lon": 24.603189, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 56.879635, 
+        "scope": 4, 
+        "slug": "latvia"
+    }
+},
+{
+    "pk": 87, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LBN", 
+        "name": "Lebanon", 
+        "color": "#EDDC4E", 
+        "lon": 35.862285, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 33.854721, 
+        "scope": 3, 
+        "slug": "lebanon"
+    }
+},
+{
+    "pk": 88, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LSO", 
+        "name": "Lesotho", 
+        "color": "#EDDC4E", 
+        "lon": 28.233608, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -29.609988, 
+        "scope": 1, 
+        "slug": "lesotho"
+    }
+},
+{
+    "pk": 89, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LBR", 
+        "name": "Liberia", 
+        "color": "#EDDC4E", 
+        "lon": -9.429499, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 6.428055, 
+        "scope": 1, 
+        "slug": "liberia"
+    }
+},
+{
+    "pk": 90, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LBY", 
+        "name": "Libya", 
+        "color": "#EDDC4E", 
+        "lon": 17.228331, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 26.3351, 
+        "scope": 1, 
+        "slug": "libya"
+    }
+},
+{
+    "pk": 91, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LTU", 
+        "name": "Lithuania", 
+        "color": "#EDDC4E", 
+        "lon": 23.881275, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 55.169438, 
+        "scope": 4, 
+        "slug": "lithuania"
+    }
+},
+{
+    "pk": 92, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LUX", 
+        "name": "Luxembourg", 
+        "color": "#EDDC4E", 
+        "lon": 6.129583, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 49.815273, 
+        "scope": 4, 
+        "slug": "luxembourg"
+    }
+},
+{
+    "pk": 93, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MKD", 
+        "name": "Macedonia", 
+        "color": "#EDDC4E", 
+        "lon": 21.745275, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 41.608635, 
+        "scope": 4, 
+        "slug": "macedonia"
+    }
+},
+{
+    "pk": 94, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MDG", 
+        "name": "Madagascar", 
+        "color": "#EDDC4E", 
+        "lon": 46.869107, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -18.766947, 
+        "scope": 1, 
+        "slug": "madagascar"
+    }
+},
+{
+    "pk": 95, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MWI", 
+        "name": "Malawi", 
+        "color": "#EDDC4E", 
+        "lon": 34.301525, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -13.254308, 
+        "scope": 1, 
+        "slug": "malawi"
+    }
+},
+{
+    "pk": 96, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MYS", 
+        "name": "Malaysia", 
+        "color": "#EDDC4E", 
+        "lon": 101.975766, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 4.210484, 
+        "scope": 3, 
+        "slug": "malaysia"
+    }
+},
+{
+    "pk": 97, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MLI", 
+        "name": "Mali", 
+        "color": "#EDDC4E", 
+        "lon": -3.996166, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 17.570692, 
+        "scope": 1, 
+        "slug": "mali"
+    }
+},
+{
+    "pk": 98, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MRT", 
+        "name": "Mauritania", 
+        "color": "#EDDC4E", 
+        "lon": -10.940835, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 21.00789, 
+        "scope": 1, 
+        "slug": "mauritania"
+    }
+},
+{
+    "pk": 99, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MEX", 
+        "name": "Mexico", 
+        "color": "#EDDC4E", 
+        "lon": -102.552784, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 23.634501, 
+        "scope": 5, 
+        "slug": "mexico"
+    }
+},
+{
+    "pk": 100, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MDA", 
+        "name": "Moldova", 
+        "color": "#EDDC4E", 
+        "lon": 28.369885, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 47.411631, 
+        "scope": 4, 
+        "slug": "moldova"
+    }
+},
+{
+    "pk": 101, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MNG", 
+        "name": "Mongolia", 
+        "color": "#EDDC4E", 
+        "lon": 103.846656, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 46.862496, 
+        "scope": 3, 
+        "slug": "mongolia"
+    }
+},
+{
+    "pk": 102, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MNE", 
+        "name": "Montenegro", 
+        "color": "#EDDC4E", 
+        "lon": 19.37439, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 42.708678, 
+        "scope": 4, 
+        "slug": "montenegro"
+    }
+},
+{
+    "pk": 103, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MAR", 
+        "name": "Morocco", 
+        "color": "#EDDC4E", 
+        "lon": -7.09262, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 31.791702, 
+        "scope": 1, 
+        "slug": "morocco"
+    }
+},
+{
+    "pk": 104, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MOZ", 
+        "name": "Mozambique", 
+        "color": "#EDDC4E", 
+        "lon": 35.529562, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -18.665695, 
+        "scope": 1, 
+        "slug": "mozambique"
+    }
+},
+{
+    "pk": 105, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "MMR", 
+        "name": "Myanmar", 
+        "color": "#EDDC4E", 
+        "lon": 95.956223, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 21.913965, 
+        "scope": 3, 
+        "slug": "myanmar"
+    }
+},
+{
+    "pk": 106, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NAM", 
+        "name": "Namibia", 
+        "color": "#EDDC4E", 
+        "lon": 18.49041, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -22.95764, 
+        "scope": 1, 
+        "slug": "namibia"
+    }
+},
+{
+    "pk": 107, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NPL", 
+        "name": "Nepal", 
+        "color": "#EDDC4E", 
+        "lon": 84.124008, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 28.394857, 
+        "scope": 3, 
+        "slug": "nepal"
+    }
+},
+{
+    "pk": 108, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NLD", 
+        "name": "Netherlands", 
+        "color": "#EDDC4E", 
+        "lon": 5.291266, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 52.132633, 
+        "scope": 4, 
+        "slug": "netherlands"
+    }
+},
+{
+    "pk": 109, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NCL", 
+        "name": "New Caledonia", 
+        "color": "#EDDC4E", 
+        "lon": 165.618042, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -20.904305, 
+        "scope": 6, 
+        "slug": "new-caledonia"
+    }
+},
+{
+    "pk": 110, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NZL", 
+        "name": "New Zealand", 
+        "color": "#EDDC4E", 
+        "lon": 174.885971, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -40.900557, 
+        "scope": 6, 
+        "slug": "new-zealand"
+    }
+},
+{
+    "pk": 111, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NIC", 
+        "name": "Nicaragua", 
+        "color": "#EDDC4E", 
+        "lon": -85.207229, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 12.865416, 
+        "scope": 5, 
+        "slug": "nicaragua"
+    }
+},
+{
+    "pk": 112, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NER", 
+        "name": "Niger", 
+        "color": "#EDDC4E", 
+        "lon": 8.081666, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 17.607789, 
+        "scope": 1, 
+        "slug": "niger"
+    }
+},
+{
+    "pk": 113, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NGA", 
+        "name": "Nigeria", 
+        "color": "#EDDC4E", 
+        "lon": 8.675277, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 9.081999, 
+        "scope": 1, 
+        "slug": "nigeria"
+    }
+},
+{
+    "pk": 114, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PRK", 
+        "name": "North Korea", 
+        "color": "#EDDC4E", 
+        "lon": 127.510093, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 40.339852, 
+        "scope": 3, 
+        "slug": "north-korea"
+    }
+},
+{
+    "pk": 115, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "NOR", 
+        "name": "Norway", 
+        "color": "#EDDC4E", 
+        "lon": 8.468946, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 60.472024, 
+        "scope": 4, 
+        "slug": "norway"
+    }
+},
+{
+    "pk": 116, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "OMN", 
+        "name": "Oman", 
+        "color": "#EDDC4E", 
+        "lon": 55.923255, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 21.512583, 
+        "scope": 3, 
+        "slug": "oman"
+    }
+},
+{
+    "pk": 117, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PAK", 
+        "name": "Pakistan", 
+        "color": "#EDDC4E", 
+        "lon": 69.345116, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 30.375321, 
+        "scope": 3, 
+        "slug": "pakistan"
+    }
+},
+{
+    "pk": 118, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PAN", 
+        "name": "Panama", 
+        "color": "#EDDC4E", 
+        "lon": -80.782127, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 8.537981, 
+        "scope": 5, 
+        "slug": "panama"
+    }
+},
+{
+    "pk": 119, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PNG", 
+        "name": "Papua New Guinea", 
+        "color": "#EDDC4E", 
+        "lon": 143.95555, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -6.314993, 
+        "scope": 6, 
+        "slug": "papua-new-guinea"
+    }
+},
+{
+    "pk": 120, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PRY", 
+        "name": "Paraguay", 
+        "color": "#EDDC4E", 
+        "lon": -58.443832, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -23.442503, 
+        "scope": 7, 
+        "slug": "paraguay"
+    }
+},
+{
+    "pk": 121, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PER", 
+        "name": "Peru", 
+        "color": "#EDDC4E", 
+        "lon": -75.015152, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -9.189967, 
+        "scope": 7, 
+        "slug": "peru"
+    }
+},
+{
+    "pk": 122, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PHL", 
+        "name": "Philippines", 
+        "color": "#EDDC4E", 
+        "lon": 121.774017, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 12.879721, 
+        "scope": 3, 
+        "slug": "philippines"
+    }
+},
+{
+    "pk": 123, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "POL", 
+        "name": "Poland", 
+        "color": "#EDDC4E", 
+        "lon": 19.145136, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 51.919438, 
+        "scope": 4, 
+        "slug": "poland"
+    }
+},
+{
+    "pk": 124, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PRT", 
+        "name": "Portugal", 
+        "color": "#EDDC4E", 
+        "lon": -8.224454, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 39.399872, 
+        "scope": 4, 
+        "slug": "portugal"
+    }
+},
+{
+    "pk": 125, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PRI", 
+        "name": "Puerto Rico", 
+        "color": "#EDDC4E", 
+        "lon": -66.590149, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 18.220833, 
+        "scope": 5, 
+        "slug": "puerto-rico"
+    }
+},
+{
+    "pk": 126, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "QAT", 
+        "name": "Qatar", 
+        "color": "#EDDC4E", 
+        "lon": 51.183884, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 25.354826, 
+        "scope": 3, 
+        "slug": "qatar"
+    }
+},
+{
+    "pk": 127, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SRB", 
+        "name": "Republic of Serbia", 
+        "color": "#EDDC4E", 
+        "lon": 21.005859, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 44.016521, 
+        "scope": 4, 
+        "slug": "republic-of-serbia"
+    }
+},
+{
+    "pk": 128, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "COG", 
+        "name": "Republic of the Congo", 
+        "color": "#EDDC4E", 
+        "lon": 15.827659, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -0.228021, 
+        "scope": 1, 
+        "slug": "republic-of-the-congo"
+    }
+},
+{
+    "pk": 129, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ROU", 
+        "name": "Romania", 
+        "color": "#EDDC4E", 
+        "lon": 24.96676, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 45.943161, 
+        "scope": 4, 
+        "slug": "romania"
+    }
+},
+{
+    "pk": 130, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "RUS", 
+        "name": "Russia", 
+        "color": "#EDDC4E", 
+        "lon": 105.318756, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 61.52401, 
+        "scope": 4, 
+        "slug": "russia"
+    }
+},
+{
+    "pk": 131, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "RWA", 
+        "name": "Rwanda", 
+        "color": "#EDDC4E", 
+        "lon": 29.873888, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -1.940278, 
+        "scope": 1, 
+        "slug": "rwanda"
+    }
+},
+{
+    "pk": 132, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SAU", 
+        "name": "Saudi Arabia", 
+        "color": "#EDDC4E", 
+        "lon": 45.079162, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 23.885942, 
+        "scope": 3, 
+        "slug": "saudi-arabia"
+    }
+},
+{
+    "pk": 133, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SEN", 
+        "name": "Senegal", 
+        "color": "#EDDC4E", 
+        "lon": -14.452362, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 14.497401, 
+        "scope": 1, 
+        "slug": "senegal"
+    }
+},
+{
+    "pk": 134, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SLE", 
+        "name": "Sierra Leone", 
+        "color": "#EDDC4E", 
+        "lon": -11.779889, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 8.460555, 
+        "scope": 1, 
+        "slug": "sierra-leone"
+    }
+},
+{
+    "pk": 135, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SVK", 
+        "name": "Slovakia", 
+        "color": "#EDDC4E", 
+        "lon": 19.699024, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 48.669026, 
+        "scope": 4, 
+        "slug": "slovakia"
+    }
+},
+{
+    "pk": 136, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SVN", 
+        "name": "Slovenia", 
+        "color": "#EDDC4E", 
+        "lon": 14.995463, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 46.151241, 
+        "scope": 4, 
+        "slug": "slovenia"
+    }
+},
+{
+    "pk": 137, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SLB", 
+        "name": "Solomon Islands", 
+        "color": "#EDDC4E", 
+        "lon": 160.156194, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -9.64571, 
+        "scope": 6, 
+        "slug": "solomon-islands"
+    }
+},
+{
+    "pk": 138, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SOM", 
+        "name": "Somalia", 
+        "color": "#EDDC4E", 
+        "lon": 46.199616, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 5.152149, 
+        "scope": 1, 
+        "slug": "somalia"
+    }
+},
+{
+    "pk": 139, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ZAF", 
         "name": "South Africa", 
+        "color": "#EDDC4E", 
         "lon": 22.937506, 
         "topo": "", 
         "radius": 10, 
         "lat": -30.559482, 
-        "scope": "AF", 
+        "scope": 1, 
         "slug": "south-africa"
     }
 },
 {
-    "pk": "ZMB", 
+    "pk": 140, 
     "model": "datamaps.country", 
     "fields": {
+        "code": "KOR", 
+        "name": "South Korea", 
+        "color": "#EDDC4E", 
+        "lon": 127.766922, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 35.907757, 
+        "scope": 3, 
+        "slug": "south-korea"
+    }
+},
+{
+    "pk": 141, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SDS", 
+        "name": "South Sudan", 
+        "color": "#EDDC4E", 
+        "lon": 30.1589303, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 7.9630921, 
+        "scope": 1, 
+        "slug": "south-sudan"
+    }
+},
+{
+    "pk": 142, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ESP", 
+        "name": "Spain", 
+        "color": "#EDDC4E", 
+        "lon": -3.74922, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 40.463667, 
+        "scope": 4, 
+        "slug": "spain"
+    }
+},
+{
+    "pk": 143, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "LKA", 
+        "name": "Sri Lanka", 
+        "color": "#EDDC4E", 
+        "lon": 80.771797, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 7.873054, 
+        "scope": 3, 
+        "slug": "sri-lanka"
+    }
+},
+{
+    "pk": 144, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SDN", 
+        "name": "Sudan", 
+        "color": "#EDDC4E", 
+        "lon": 30.217636, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 12.862807, 
+        "scope": 1, 
+        "slug": "sudan"
+    }
+},
+{
+    "pk": 145, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SUR", 
+        "name": "Suriname", 
+        "color": "#EDDC4E", 
+        "lon": -56.027783, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 3.919305, 
+        "scope": 7, 
+        "slug": "suriname"
+    }
+},
+{
+    "pk": 146, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SWZ", 
+        "name": "Swaziland", 
+        "color": "#EDDC4E", 
+        "lon": 31.465866, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -26.522503, 
+        "scope": 4, 
+        "slug": "swaziland"
+    }
+},
+{
+    "pk": 147, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SWE", 
+        "name": "Sweden", 
+        "color": "#EDDC4E", 
+        "lon": 18.643501, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 60.128161, 
+        "scope": 4, 
+        "slug": "sweden"
+    }
+},
+{
+    "pk": 148, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "CHE", 
+        "name": "Switzerland", 
+        "color": "#EDDC4E", 
+        "lon": 8.227512, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 46.818188, 
+        "scope": 4, 
+        "slug": "switzerland"
+    }
+},
+{
+    "pk": 149, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "SYR", 
+        "name": "Syria", 
+        "color": "#EDDC4E", 
+        "lon": 38.996815, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 34.802075, 
+        "scope": 3, 
+        "slug": "syria"
+    }
+},
+{
+    "pk": 150, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TWN", 
+        "name": "Taiwan", 
+        "color": "#EDDC4E", 
+        "lon": 120.960515, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 23.69781, 
+        "scope": 3, 
+        "slug": "taiwan"
+    }
+},
+{
+    "pk": 151, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TJK", 
+        "name": "Tajikistan", 
+        "color": "#EDDC4E", 
+        "lon": 71.276093, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 38.861034, 
+        "scope": 3, 
+        "slug": "tajikistan"
+    }
+},
+{
+    "pk": 152, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "THA", 
+        "name": "Thailand", 
+        "color": "#EDDC4E", 
+        "lon": 100.992541, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 15.870032, 
+        "scope": 3, 
+        "slug": "thailand"
+    }
+},
+{
+    "pk": 153, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "BHS", 
+        "name": "The Bahamas", 
+        "color": "#EDDC4E", 
+        "lon": -77.39628, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 25.03428, 
+        "scope": 5, 
+        "slug": "the-bahamas"
+    }
+},
+{
+    "pk": 154, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TGO", 
+        "name": "Togo", 
+        "color": "#EDDC4E", 
+        "lon": 0.824782, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 8.619543, 
+        "scope": 1, 
+        "slug": "togo"
+    }
+},
+{
+    "pk": 155, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TTO", 
+        "name": "Trinidad and Tobago", 
+        "color": "#EDDC4E", 
+        "lon": -61.222503, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 10.691803, 
+        "scope": 5, 
+        "slug": "trinidad-and-tobago"
+    }
+},
+{
+    "pk": 156, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TUN", 
+        "name": "Tunisia", 
+        "color": "#EDDC4E", 
+        "lon": 9.537499, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 33.886917, 
+        "scope": 1, 
+        "slug": "tunisia"
+    }
+},
+{
+    "pk": 157, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TUR", 
+        "name": "Turkey", 
+        "color": "#EDDC4E", 
+        "lon": 35.243322, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 38.963745, 
+        "scope": 3, 
+        "slug": "turkey"
+    }
+},
+{
+    "pk": 158, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TKM", 
+        "name": "Turkmenistan", 
+        "color": "#EDDC4E", 
+        "lon": 59.556278, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 38.969719, 
+        "scope": 3, 
+        "slug": "turkmenistan"
+    }
+},
+{
+    "pk": 159, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "UGA", 
+        "name": "Uganda", 
+        "color": "#EDDC4E", 
+        "lon": 32.290275, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 1.373333, 
+        "scope": 1, 
+        "slug": "uganda"
+    }
+},
+{
+    "pk": 160, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "UKR", 
+        "name": "Ukraine", 
+        "color": "#EDDC4E", 
+        "lon": 31.16558, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 48.379433, 
+        "scope": 4, 
+        "slug": "ukraine"
+    }
+},
+{
+    "pk": 161, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ARE", 
+        "name": "United Arab Emirates", 
+        "color": "#EDDC4E", 
+        "lon": 53.847818, 
+        "topo": "", 
+        "radius": 30, 
+        "lat": 23.424076, 
+        "scope": 3, 
+        "slug": "united-arab-emirates"
+    }
+},
+{
+    "pk": 162, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "GBR", 
+        "name": "United Kingdom", 
+        "color": "#EDDC4E", 
+        "lon": -3.435973, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 55.378051, 
+        "scope": 4, 
+        "slug": "united-kingdom"
+    }
+},
+{
+    "pk": 163, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "TZA", 
+        "name": "United Republic of Tanzania", 
+        "color": "#EDDC4E", 
+        "lon": 34.888822, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -6.369028, 
+        "scope": 1, 
+        "slug": "united-republic-of-tanzania"
+    }
+},
+{
+    "pk": 164, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "USA", 
+        "name": "United States of America", 
+        "color": "#EDDC4E", 
+        "lon": -95.712891, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 37.09024, 
+        "scope": 5, 
+        "slug": "united-states-of-america"
+    }
+},
+{
+    "pk": 165, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "URY", 
+        "name": "Uruguay", 
+        "color": "#EDDC4E", 
+        "lon": -55.765835, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -32.522779, 
+        "scope": 7, 
+        "slug": "uruguay"
+    }
+},
+{
+    "pk": 166, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "UZB", 
+        "name": "Uzbekistan", 
+        "color": "#EDDC4E", 
+        "lon": 64.585262, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 41.377491, 
+        "scope": 3, 
+        "slug": "uzbekistan"
+    }
+},
+{
+    "pk": 167, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "VUT", 
+        "name": "Vanuatu", 
+        "color": "#EDDC4E", 
+        "lon": 166.959158, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": -15.376706, 
+        "scope": 6, 
+        "slug": "vanuatu"
+    }
+},
+{
+    "pk": 168, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "VEN", 
+        "name": "Venezuela", 
+        "color": "#EDDC4E", 
+        "lon": -66.58973, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 6.42375, 
+        "scope": 7, 
+        "slug": "venezuela"
+    }
+},
+{
+    "pk": 169, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "VNM", 
+        "name": "Vietnam", 
+        "color": "#EDDC4E", 
+        "lon": 108.277199, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 14.058324, 
+        "scope": 3, 
+        "slug": "vietnam"
+    }
+},
+{
+    "pk": 170, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "PSE", 
+        "name": "West Bank", 
+        "color": "#EDDC4E", 
+        "lon": 35.3, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 31.9667, 
+        "scope": 3, 
+        "slug": "west-bank"
+    }
+},
+{
+    "pk": 171, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "YEM", 
+        "name": "Yemen", 
+        "color": "#EDDC4E", 
+        "lon": 48.516388, 
+        "topo": "", 
+        "radius": 10, 
+        "lat": 15.552727, 
+        "scope": 3, 
+        "slug": "yemen"
+    }
+},
+{
+    "pk": 172, 
+    "model": "datamaps.country", 
+    "fields": {
+        "code": "ZMB", 
         "name": "Zambia", 
+        "color": "#EDDC4E", 
         "lon": 27.849332, 
         "topo": "", 
         "radius": 10, 
         "lat": -13.133897, 
-        "scope": "AF", 
+        "scope": 1, 
         "slug": "zambia"
     }
 },
 {
-    "pk": "ZWE", 
+    "pk": 173, 
     "model": "datamaps.country", 
     "fields": {
+        "code": "ZWE", 
         "name": "Zimbabwe", 
+        "color": "#EDDC4E", 
         "lon": 29.154857, 
         "topo": "", 
         "radius": 10, 
         "lat": -19.015438, 
-        "scope": "AF", 
+        "scope": 1, 
         "slug": "zimbabwe"
     }
 }

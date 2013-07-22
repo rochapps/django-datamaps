@@ -10,7 +10,7 @@ class World(models.Model):
 
 
 class Scope(models.Model):
-    code = models.CharField(max_length=2, primary_key=True)
+    code = models.CharField(max_length=2)
     name = models.CharField(max_length=20)
     slug = models.SlugField(editable=True)
     topo = models.TextField(blank=True, editable=False)
@@ -38,7 +38,7 @@ class Scope(models.Model):
 
 
 class Country(models.Model):
-    code = models.CharField(max_length=3, primary_key=True)
+    code = models.CharField(max_length=3)
     name = models.CharField(max_length=40)
     slug = models.SlugField(editable=True)
     scope = models.ForeignKey(Scope, null=True, blank=True)
