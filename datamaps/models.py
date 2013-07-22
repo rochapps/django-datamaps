@@ -6,6 +6,7 @@ from django.db import models
 
 class World(models.Model):
     topo = models.TextField(blank=True)
+    color = models.CharField(max_length=8, default='#EDDC4E')
 
 
 class Scope(models.Model):
@@ -16,6 +17,8 @@ class Scope(models.Model):
     lat = models.FloatField(default=0)
     lon = models.FloatField(default=0)
     scale = models.DecimalField(default=0, max_digits=12, decimal_places=8)
+    color = models.CharField(max_length=8, default='#EDDC4E')
+
 
     def __unicode__(self):
         return self.name
@@ -43,6 +46,8 @@ class Country(models.Model):
     lat = models.FloatField(default=0)
     lon = models.FloatField(default=0)
     radius = models.PositiveIntegerField(default=10)
+    color = models.CharField(max_length=8, default='#EDDC4E')
+
 
     class Meta:
         ordering = ('name', )

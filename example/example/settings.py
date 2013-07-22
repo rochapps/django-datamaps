@@ -118,7 +118,8 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'example',
     'core',
-    'datamaps'
+    'datamaps',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging

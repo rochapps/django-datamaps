@@ -4,7 +4,7 @@ from .models import Country, Scope
 
 
 class CountryAdmin(admin.ModelAdmin):
-    list_display = ('name', 'scope', )
+    list_display = ('name', 'scope', 'color', 'lat', 'lon', )
     list_per_page = 10
     search_fields = ["name", "code"]
 
