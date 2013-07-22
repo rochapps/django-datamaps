@@ -1,0 +1,10 @@
+<ul>
+    {% for scope in object_list %}
+        <li><h3><a href="{{ scope.get_absolute_url }}">{{ scope.name }}</a></h3>
+            <ul> {% for country in scope.country_set.all %}
+                    <li><a href="{{ country.get_absolute_url }}">{{ country }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>

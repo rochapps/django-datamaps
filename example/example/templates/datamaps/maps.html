@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django Maps</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script src="{{ STATIC_URL }}js/libs/d3/d3.v3.min.js"></script>
+        <script src="{{ STATIC_URL }}js/libs/topojson/topojson.v1.min.js"></script>
+        <script src="{{ STATIC_URL }}js/libs/datamaps/datamaps.world.min.js"></script>
+        <div id="map" style="position: relative; width: 960px; height: 640px;"></div>
+
+        <script>
+        var bombs = [{
+            name: '{{ object.name }}',
+            radius: {{ object.radius }},
+            yeild: 50000,
+            country: 'USSR',
+            fillKey: '{{ object.code }}',
+            significance: 'Largest thermonuclear weapon ever tested—scaled down from its initial 100 Mt design by 50%',
+            date: '1961-10-31',
+            latitude: {{ object.lat }},
+            longitude: {{ object.lon }}
+          }
+        ];
+        var fills = {defaultFill: '#EDDC4E', 'country': '#1f77b4'};
+        var data = {};
+
+        var bombMap = new Datamap({
+            element: document.getElementById('map'),
+            scope: 'world',
+            geographyConfig: {
+                hideAntarctica: false,
+                popupOnHover: false,
+                highlightOnHover: false
+            },
+            setProjection: function(element, options) {
+                var projection, path;
+                projection = d3.geo[options.projection]()
+                  .scale(element.offsetWidth * {{ object.scope.scale }})
+                  .translate([element.offsetWidth / 2, element.offsetHeight / 1.8])
+                  .center([{{ object.scope.lon }}, {{ object.scope.lat }}]);
+                path = d3.geo.path()
+                    .projection( projection );
+
+                return {path: path, projection: projection};
+            },
+            fills: fills,
+            data: data
+        }).draw()
+
+        //draw bubbles for bombs
+        bombMap.bubbles(bombs, {
+            popupTemplate:function (geography, data) {
+                    return ['<div class="hoverinfo"><strong>' +  data.name + '</strong>',
+                    '<br/>Payload: ' +  data.yeild + ' kilotons',
+                    '<br/>Country: ' +  data.country + '',
+                    '<br/>Date: ' +  data.date + '',
+                    '</div>'].join('');
+            }
+        });
+        </script>
+    </body>
+</html>
+
+<ul>
+    {% for scope in object_list %}
+        <li><h3><a href="{{ scope.get_absolute_url }}">{{ scope.name }}</a></h3>
+            <ul> {% for country in scope.country_set.all %}
+                    <li><a href="{{ country.get_absolute_url }}">{{ country }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>

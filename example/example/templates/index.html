@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django Maps</title>
+        <meta charset="utf-8">
+        <script src="{{ STATIC_URL }}js/libs/d3/d3.v3.min.js"></script>
+        <script src="{{ STATIC_URL }}js/libs/topojson/topojson.v1.min.js"></script>
+        <script src="{{ STATIC_URL }}js/libs/datamaps/datamaps.world.min.js"></script>
+    </head>
+    <body>
+        <h1>Django Datamaps <small>Maps made easy!</small></h1>
+        <div id="map" style="position: relative; width: 960px; height: 400px;"></div>
+
+        <ul style="list-style: none;">
+            <li style="float: left;"><a href="{% url 'datamaps_scope_list' %}">View all maps</a></li>
+        </ul>
+
+        <script>
+            var fills = {defaultFill: '#EDDC4E', '{{ object.code }}': '#1f77b4'};
+            var data = {};
+
+            var map = new Datamap({
+                element: document.getElementById('map'),
+                scope: 'world',
+                geographyConfig: {
+                    hideAntarctica: false,
+                    popupOnHover: false,
+                    highlightOnHover: false
+                },
+                setProjection: function(element, options) {
+                    var projection, path;
+                    projection = d3.geo['equirectangular']()
+                        .scale(element.offsetWidth * 0.1)
+                    path = d3.geo.path()
+                        .projection( projection );
+
+                    return {path: path, projection: projection};
+                },
+                fills: fills,
+                data: data
+            }).draw()
+        </script>
+  </body>
+</html>

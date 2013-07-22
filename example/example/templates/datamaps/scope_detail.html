@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django Maps</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        {% load render_map %}
+        {% load_map_libraries %}
+        <div id="map" style="position: relative; width: 960px; height: 640px;"></div>
+        {% display_scoped_map_with_bombs  scope "map" map_data map_bombs fills %}
+  </body>
+</html>
