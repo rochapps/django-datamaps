@@ -1,4 +1,3 @@
-from django.conf import settings
 from django.core.urlresolvers import reverse
 from django.template.defaultfilters import slugify
 from django.db import models
@@ -16,9 +15,8 @@ class Scope(models.Model):
     topo = models.TextField(blank=True, editable=False)
     lat = models.FloatField(default=0)
     lon = models.FloatField(default=0)
-    scale = models.DecimalField(default=0, max_digits=12, decimal_places=8)
+    scale = models.FloatField(default=0)
     color = models.CharField(max_length=8, default='#EDDC4E')
-
 
     def __unicode__(self):
         return self.name
@@ -26,11 +24,12 @@ class Scope(models.Model):
     def get_absolute_url(self):
         return reverse("datamaps_scope_detail", kwargs={"slug": self.slug})
 
-    def get_topo_url(self):
-        """"Return a url for where the TopoJson file for this country is."""""
-        url = "{static}datamaps/scopes/{code}.json".format(
-            static=settings.STATIC_URL, code=self.code)
-        return url
+    def json_serializable(self):
+        """Serializes current instance"""
+        data = {"code": self.code, "name": self.name, "lat": float(self.lat),
+                "lon": float(self.lon), "scale": float(self.scale),
+                "color": self.color}
+        return data
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
@@ -48,7 +47,6 @@ class Country(models.Model):
     radius = models.PositiveIntegerField(default=10)
     color = models.CharField(max_length=8, default='#EDDC4E')
 
-
     class Meta:
         ordering = ('name', )
 
@@ -58,11 +56,11 @@ class Country(models.Model):
     def get_absolute_url(self):
         return reverse("datamaps_country_detail", kwargs={"slug": self.slug})
 
-    def get_topo_url(self):
-        "Return a url for where the TopoJson file for this country is."
-        url = "{static}datamaps/countries/{code}.json".format(
-            static=settings.STATIC_URL, code=self.code)
-        return url
+    def json_serializable(self):
+        """Serializes current instance"""
+        data = {"code": self.code, "name": self.name, "lat": float(self.lat),
+                "lon": float(self.lon), "scale": float(self.scale),
+                "color": self.color}
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
